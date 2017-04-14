@@ -1,4 +1,11 @@
+/*
+ Nekotiko 2017.
 
+ Step monitor code for Adafruit Feather M0 BLE.
+
+ It requires the use of the digital pins and the fabrication of the sensors.
+ 
+*/
 #include <Arduino.h>
 #include <SPI.h>
 #if not defined (_VARIANT_ARDUINO_DUE_X_) && not defined (_VARIANT_ARDUINO_ZERO_)
